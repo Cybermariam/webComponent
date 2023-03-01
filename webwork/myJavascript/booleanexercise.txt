@@ -1,0 +1,21 @@
+part1
+1. true
+2.true
+3.1
+4.true
+5. false
+true
+true
+
+part 2
+keep it up
+because we've already stated it to be true in the above section.
+ii. because its in the same block has when it was declared.
+
+b section
+
+i.third
+ii. undefined
+iii. no, a falsey value
+iv. no, a falsey value
+v. yes, its a whole number.
