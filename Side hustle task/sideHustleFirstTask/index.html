@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Form</title>
+
+</head>
+<body>
+    <h1>Simple Form</h1>
+    <form action="#" method="post">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" size="30" required>
+    </p> 
+
+    <p>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" pattern=".+@gmail\.com" size="30" required>
+     </p>
+
+     <p>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"  size="30" required>
+    </p>
+
+     <p>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" size="30"  required>
+     </p>
+
+     <p>
+
+      <label for="gender">Gender:
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value = "male" required>
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value = "female" required>
+     </label>
+    </p>
+
+   
+        <button type="submit" onclick="showAlert()">SUBMIT</button>
+    
+    </form>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>

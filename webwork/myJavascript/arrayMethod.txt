@@ -1,0 +1,25 @@
+part 1
+let arr = ['White & Black', 'Mariam', 'Ademola'];
+arr.shift();
+'White & Black'
+arr; // ['Mariam', 'Ademola']
+let arr2 = [25, 'JavaScript'];
+undefined
+arr2
+[25, 'JavaScript'];
+
+arr.indexOf(25)// -1
+
+let combinedArr = arr1.concat(arr2);
+combinedArr;
+['a', 'b', 'c', 25, 'JavaScript']
+let combinedArr = arr.concat(arr2);
+combinedArr;// ['Mariam', 'Ademola', 25, 'JavaScript']
+
+Part 2
+let arr = ['JavaScript', 'Python', 'Ruby', 'Java'];
+
+arr.splice(1, 2, 'Haskell', 'Clojure');// ['Python', 'Ruby']
+arr; // ['JavaScript', 'Haskell', 'Clojure', 'Java']
+arr.splice(1,2, 'Python', 'Ruby');
+arr; //['JavaScript', 'Python', 'Ruby', 'Java']
