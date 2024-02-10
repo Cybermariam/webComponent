@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="stylec.css" />
+  </head>
+  <body>
+    <header>
+      <!--MODE -->
+      <form class="toggle" id="toggle">
+        <input type="checkbox" id="dark-mode" class="input" />
+        <label for="dark-mode" class="label" id="label">
+          <div class="circle"></div>
+        </label>
+      </form>
+      <!--SEARCH FOR CITY--->
+      <form action="" class="search-container">
+        <img class="search-button" src="./img/search 1.svg" alt="" />
+        <input type="text" placeholder="Search for your preferred city..." />
+      </form>
+      <!--SEARCH INPUT-->
+      <div class="location-container">
+        <img
+          class="location-image"
+          src="./img/current location icon.svg"
+          alt=""
+        />
+        <div>Current Location</div>
+      </div>
+    </header>
+    <main>
+      <div class="first-container">
+        <h4>Athens</h4>
+        <h1 class="time">00: 00</h1>
+        <p class="day"></p>
+      </div>
+      <div class="second-container">
+        <div class="first-content">
+          <h1 class="temperature">75 deg F</h1>
+          <p>Feels like: 22deg c</p>
+          <div class="sun">
+            <img src="./img/sunrise-white 1.svg" class="sunrise" alt="" />
+            <div>
+              <p>Sunrise</p>
+              <p class="time">06:37 AM</p>
+            </div>
+          </div>
+
+          <div class="sun">
+            <img src="./img/sun-set" class="sunrise" alt="" />
+            <div>
+              <p>Sunset</p>
+              <p class="time">20:37 AM</p>
+            </div>
+          </div>
+        </div>
+
+        <!--second content-->
+        <div class="second-content">
+          <img src="./img/clear 1.svg" alt="" />
+          <p>Sunny</p>
+        </div>
+
+        <!--third content-->
+        <div>
+          <div class="first">
+            <div classs="humidity">
+              <img src="./img/humidity 1.svg" alt="" />
+              <p>41%</p>
+              <p>Humidity</p>
+            </div>
+
+            <div classs="wind-speed">
+              <img src="./img/wind 1.svg" alt="" />
+              <p>2km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+
+          <!--second-->
+          <div class="second">
+            <div classs="pressure">
+              <img src="./img/pressure-white 1.svg" alt="" />
+              <p>997hPa</p>
+              <p>Pressure</p>
+            </div>
+
+            <div classs="uv">
+              <img src="./img/uv-white 1.svg" alt="" />
+              <p>8</p>
+              <p>uv</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

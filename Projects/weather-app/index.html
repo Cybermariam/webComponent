@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Hanken+Grotesk:ital,wght@0,800;1,500;1,700&family=Inter:wght@400;700;800&family=Lexend+Deca&family=Montserrat:wght@100;200;300;400&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:ital,wght@0,400;0,700;1,100;1,400;1,500;1,700&family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="weather-container">
+      <header>
+        <!--Mode Start Here-->
+        <div class="mode">
+          <input type="checkbox" id="dark-mode" class="input" />
+          <label for="dark-mode" class="label">
+            <div class="circle"></div>
+          </label>
+          <div class="mode-update">Light Mode</div>
+        </div>
+        <!--Mode Ends Here-->
+        <!--search city starts here-->
+        <form id="form" class="search-form">
+          <input
+            type="text"
+            name="searchbox"
+            class="search-input"
+            id="search"
+            placeholder="Search for your preferred city..."
+          />
+          <img src="./img/search 1.svg" alt="search icon" class="search-icon" />
+        </form>
+        <!--search city ends here-->
+
+        <!--current location start here-->
+        <div class="location-container">
+          <img
+            src="./img/current location icon.svg"
+            class="current-location-icon"
+            alt="current location icon"
+          />
+          <div class="current-location">Current Location</div>
+        </div>
+        <!--current location ends here-->
+      </header>
+      <main>
+        <div class="first-row">
+        
+          <!--city div-->
+          <div class="weather-summary">
+            <h4 class="weather-city">Athens</h4>
+            <h1 class="weather-time">09:03</h1>
+            <p class="weather-date">Thursday, 31 Aug</p>
+          </div>
+      
+<!--second row start here-->
+<div class="weather-temperature">
+  <h1 class="temperature">75 <span class="weather-degree-fahrenheit">&#176F</span></h1>
+  <p>Feels like: 22 <span class="weather-degree-celsius">&#176C</span></p>
+  <div class="sun-box">
+    <img src="./img/sunrise-white 1.svg" class="sun" alt="" />
+    <div class="sun-container">
+      <p class="sun-status">Sunrise</p>
+      <p class="time">06:37 AM</p>
+    </div>
+  </div>
+    <!--sunset-->
+  <div class="sun-box">
+    <img src="./img/sunrise-white 1.svg" class="sun" alt="" />
+    <div  class="sun-container">
+      <p class="sun-status">Sunset</p>
+      <p class="time">20:37 PM</p>
+    </div>
+  </div>
+</div>z A 
+        
+            
+          <!--first-content ends here-->
+        
+        <div class="second-row">
+
+        </div>
+      </main>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html> 
+<div class="second-row">
+  <!--first column-->
+  
